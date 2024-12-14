@@ -1,0 +1,67 @@
+.header{
+    margin: 0 auto;
+    display: inline-block;
+}
+.header img{
+    max-width: 1400px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 115px;
+    align-items: center;
+    display: inline-block;
+}
+    
+.container-subscribe{
+    max-width: 1137px;
+    width: 100%;
+    padding: 40px 32px;
+    background-color: #EBF8FE;
+    border-radius: 24px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 72px;
+}
+.container-subscribe h2{
+    color: #181D27;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.container-subscribe p{
+    color: #535862;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+}
+.email{
+    padding: var(--spacing-lg, 12px) 14px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+}
+.submit{
+    border-radius: var(--radius-md, 8px);
+    border: 2px solid #FFF;
+    background: #007CB8;
+    padding: var(--spacing-lg, 9px) 18px;
+    color: #FFF;
+    font-size: var(--Font-size-text-md, 16px);
+    font-weight: 600;
+    line-height: var(--Line-height-text-md, 24px);
+}
+.submitForm{
+    margin: 0 auto;
+    max-width: 546px;
+    width: 100%;
+    padding: 40px 32px;
+    border-radius: 24px;
+    background: #EBF8FE;
+}
+.submitForm h2{
+    color: #181D27;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
