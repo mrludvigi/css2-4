@@ -1,21 +1,39 @@
+@import url('https://fonts.cdnfonts.com/css/poetsenone');
+@import url('https://fonts.cdnfonts.com/css/inria-sans');
+@import url('https://fonts.cdnfonts.com/css/interstate-2');
+@import url('https://fonts.cdnfonts.com/css/inter');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-.header{
+.image-container {
     margin: 0 auto;
     margin-top: 156px;
     text-align: center;
-}
-.header img{
+    position: relative;
     max-width: 1400px;
-    width: 100%;
-    text-align: center;
     margin-bottom: 115px;
-    align-items: center;
-    display: inline-block;
-}
+  }
+  .image-container img {
+    max-width: 1400px;
+    width: 100%; 
+    display: block; 
+  }
+
+  .image-container .text-overlay {
+    max-width: 1258px;
+    width: 100%;
+    position: absolute; 
+    top: 39px; 
+    left: 71px;
+    right: 71px;
+    color: white; 
+    font-size: 44.452px; 
+    font-family: 'PoetsenOne', sans-serif;
+    padding: 5px 10px; 
+    font-weight: 400;
+  }
     
 .container-subscribe{
     max-width: 1137px;
@@ -30,12 +48,13 @@
     margin-bottom: 72px;
 }
 .container-subscribe h2{
+    font-family: 'Inria Sans', sans-serif;
     color: #181D27;
     font-size: 64px;
     font-weight: 700;
     line-height: 60px;
 }
-.container-subscribe p{
+.pOne{
     color: #535862;
     font-size: 32px;
     font-weight: 400;
@@ -60,6 +79,8 @@
 }
 
 .submitForm{
+    font-family: 'Inter', sans-serif;
+    font-family : 'Inter' , sans-serif ; 
     margin: 0 auto;
     max-width: 546px;
     width: 100%;
